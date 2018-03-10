@@ -1,0 +1,16 @@
+---
+title: "Praca domowa 1"
+author: "Piotr Storożenko"
+date: "10 marca 2018"
+header-includes:
+   - \usepackage[light]{anttor}
+   - \usepackage{polski}
+output: 
+  pdf_document:
+    fig_caption: yes
+---
+
+# Zadanie domowe
+Napisz program w którym, będziesz miał możliwość sprawdzenia jaka jest odległość pomiędzy dwoma punktami $p_1(x_1,y_1)$ oraz $p_2(x_2,y_2)$.
+W tym celu stwórz zmienne `double x1`, `double y1`, `double x2`, `double y2`.
+Wszystko co niezbędne znajdziesz pod tym adresem: `http://matematyka.pisz.pl/strona/1248.html`.

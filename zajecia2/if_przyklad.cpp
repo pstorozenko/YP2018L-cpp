@@ -6,14 +6,6 @@ int main()
 	int x;
 	cout << "Podaj liczbę 42: ";
 	cin >> x;
-	/*
-		Dostępne:
-		==
-		<=
-		>=
-		<
-		>
-	*/
 	if (x == 42)
 	{
 		cout << "Wszyscy lubią 42" << endl;
@@ -24,3 +16,13 @@ int main()
 	}
 	return 0;
 }
+
+/*
+		Dostępne:
+		==
+		!=
+		<=
+		>=
+		<
+		>
+	*/

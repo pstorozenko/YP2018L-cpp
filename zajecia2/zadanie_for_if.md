@@ -8,12 +8,14 @@
 ---
 Można robić tak:
 ```c++
-for(bla; bla; bla
-){
+
+for(bla; bla; bla){
+	
 	if (warunek)
 	{
 		coś/coś/coś;
 	}
+	
 }
 ```
 

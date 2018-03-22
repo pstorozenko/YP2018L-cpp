@@ -1,4 +1,4 @@
-W celu znalezienia informacji na temat, któryś zajęć, wejdź do odpowiedniego folderu, w tym tygodniu w `zajecia1`.
+W celu znalezienia informacji na temat, któryś zajęć, wejdź do odpowiedniego folderu, w tym tygodniu w `zajecia3`.
 
 https://inceptio.org.pl/young-programmer-2018-wiosna/
 

@@ -15,3 +15,5 @@ int main()
 	cout << srednia_geo(4, 2) << endl;
 	return 0;
 }
+
+// https://github.com/pitrosk/YP_cpp_wiosna_2018

@@ -4,7 +4,8 @@ using namespace std;
 
 void wypisz_litery(string napis)
 {
-  for (int i = 0; i < napis.length(); i++)
+  int n = napis.length();
+  for (int i = 0; i < n; i++)
   {
     cout << napis[i] << endl;
   }

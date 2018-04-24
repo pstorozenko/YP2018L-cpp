@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -19,9 +20,21 @@ int main()
   {
     cout << "Linijka " << i << ": " << v[i] << " " << endl;
   }
-	// Tutaj ma się pojawić pętla, która wykona się 3 razy
-	// Za każdym razem program zapyta się użytkownika o linijkę do powtórzenia
-	// i wypisze ją ponownie na ekran
+
+	//////////////
+	int n_linijki;
+	for (int i = 0 ; i < 3 ; i++)
+	{
+		cout << "Którą linijkę chcesz żeby powtórzyć?" << endl;
+		cin >> n_linijki;
+		if (n_linijki >= 0 && n_linijki < v.size()) {
+			cout << v[n_linijki] << endl << endl;
+		}
+		else {
+			cout << "Nie ma takiej linijki" << endl << endl;
+		}
+	}
+	/////////////////
 	return 0;
 }
 //https://github.com/pitrosk/YP_cpp_wiosna_2018
